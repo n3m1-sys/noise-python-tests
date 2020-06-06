@@ -136,5 +136,3 @@ def grad(hash, x, y, z):
         v = z
                                                                         # Si el bit menos significativo es 0 u es positivo y si no es negativo
     return (u if h & 0b1 == 0 else -u)+(v if h & 0b10 == 0 else -v)     # Si el segundo bit menos significativo es 0 v es poitivo y si no es negativo
-
-print(perlin(4.8, 5.3, 7.2))
